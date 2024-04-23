@@ -4,7 +4,7 @@ layout: home
 title: Главная страница
 
 hero:
-  name: IRacle -
+  name: IRacle
   text: Главный ноулайфер SPSB
   tagline: Просто дефолтик нердик пишит сюда свои текстволлы про пс😣
   image:
@@ -12,11 +12,11 @@ hero:
     alt: EnCroissant
   actions:
     - theme: brand
-      text: Читать далее...
+      text: Читать статьи
       link: /docs/
-    - theme: alt
-      text: Мой Github
-      link: https://github.com/IRacle
+    - theme: brand
+      text: Читать гайд на нотацию
+      link: /notation/
     - theme: alt
       text: Мой ТГ
       link: https://t.me/irac1e
