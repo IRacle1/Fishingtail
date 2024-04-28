@@ -10,7 +10,6 @@ export default defineConfig({
     math: true
   },
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Главная страница", link: "/" },
       { text: "Статьи", link: "/docs/" },
