@@ -529,7 +529,7 @@ Cкажу только что изначально я недооценил вс�
 
 ## Благодарности
 
-<!--<VPTeamMembers size="small" :members="credit" />--> 
+<VPTeamMembers size="small" :members="credit" />
 
 <style module>
 .blocking {

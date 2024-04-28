@@ -19,15 +19,15 @@ export default defineConfig({
     sidebar: {
       "/docs": [
         {
-          text: "Семейства трюков",
+          text: "Общее",
           items: [
-            { text: "Фишинги/Фиштейлы", link: "/docs/tricks/fishingtail/index"}
+            
           ],
         },
         {
-          text: "Общие концепции",
+          text: "Семейства трюков",
           items: [
-            
+            { text: "Фишинги/Фиштейлы", link: "/docs/tricks/fishingtail/index"}
           ],
         },
         {
