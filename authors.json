@@ -1,0 +1,20 @@
+{
+    "alex": {
+        "avatar": "https://cdn.discordapp.com/avatars/1025348520603037726/7161574a4f789c7099de51c39a6ce6f1.webp?size=128",
+        "name": "Alex"
+    },
+    "iracle": {
+        "avatar": "https://www.github.com/IRacle1.png",
+        "name": "IRacle",
+        "links": [
+            {
+                "icon": "github",
+                "link": "https://github.com/IRacle1"
+            }
+        ]
+    },
+    "art": {
+        "avatar": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "name": "Артем Палагин"
+    }
+}
