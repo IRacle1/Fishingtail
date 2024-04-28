@@ -1,3 +1,11 @@
+<script setup>
+import { VPTeamMembers } from 'vitepress/theme';
+import load from "../../../giveCredits.js";
+
+const credit = load({ "iracle": "Автор статьи", "art": "Редакция и предоставление материала" });
+
+</script>
+
 # Все про фишинги и фиштейлы
 
 ## Введение
@@ -441,7 +449,9 @@ bust fishing = (fl) bust 0.5 x-* > fs 1.0 *-y > fl around rev 0.5 y-*
 
 ### lever
 
-Вот это неожиданно, трюк который был показан еще в 13 году, оказывается тоже содержит элементы фишинга/фиштейла? Оказывается да, 
+Вот это неожиданно, трюк который был показан еще в 13 году, оказывается тоже содержит элементы фишинга/фиштейла? Оказывается да.
+
+<VPTeamMembers size="small" :members="credit" />
 
 <style module>
 .blocking {
