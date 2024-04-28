@@ -22,7 +22,19 @@ export default defineConfig({
           text: "Семейства трюков",
           items: [
             { text: "Фишинги/Фиштейлы", link: "/docs/tricks/fishingtail/index"}
-          ]
+          ],
+        },
+        {
+          text: "Общие концепции",
+          items: [
+            
+          ],
+        },
+        {
+          text: "Статьи на пару минут",
+          items: [
+            
+          ],
         }
       ],
       "/notation": [
