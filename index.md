@@ -6,10 +6,10 @@ title: Главная страница
 hero:
   name: IRacle
   text: Главный ноулайфер SPSB
-  tagline: Просто дефолтик нердик пишит сюда свои текстволлы про пс😣
+  tagline: Еще не придумал что написать😭
   image:
     src: /large-logo.webp
-    alt: EnCroissant
+    alt: Dislike
   actions:
     - theme: brand
       text: Читать статьи
@@ -27,13 +27,10 @@ hero:
 features:
   - title: Четко
     icon: 📈
-    details: Для меня
   - title: Структурировано
     icon: 📁
-    details: С моих глаз
   - title: Удобно
     icon: 💀
-    details: Мне
 ---
 
 <style module>
