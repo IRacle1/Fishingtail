@@ -2,7 +2,7 @@
 import { VPTeamMembers } from 'vitepress/theme';
 import load from "../../../giveCredits.js";
 
-const credit = load({ "iracle": "Автор статьи", "art": "Редакция и предоставление материала", "alex": "Редакция" });
+const credit = load({ "iracle": "Автор статьи", "art": "Редакция и предоставление материала" });
 
 </script>
 
