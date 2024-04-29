@@ -148,10 +148,6 @@ kbd {
   border-width: var(--vp-border-width);
 }
 
-.custom-block.info a,
-.custom-block.info code {
-  color: var(--vp-c-blue-1);
-}
 
 .custom-block.info a,
 .custom-block.info code {
