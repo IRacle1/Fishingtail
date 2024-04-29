@@ -36,9 +36,12 @@ features:
 <style module>
 :root {
   --vp-home-hero-name-color: transparent;
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+.dark {
   --vp-home-hero-name-background: -webkit-linear-gradient(10deg, #952ac6, #FFFFFF);
   --vp-home-hero-image-background-image: linear-gradient(326deg, #f8002f 0%, #000c14 74%);
-  --vp-home-hero-image-filter: blur(44px);
 }
 
 @media (min-width: 640px) {
