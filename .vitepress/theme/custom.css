@@ -1,3 +1,204 @@
 :root {
+  --vp-shadow-6: 0px 4px 15px rgba(47, 63, 147, 0.08);
+  --vp-border: var(--vp-border-width) solid var(--vp-c-bg-soft);
+  --vp-border-width: 4px;
+  --vp-border-radius: 20px;
+
+  --vp-c-gray-1: #f7f7f7;
+
   --vp-c-brand-1: #dda5f0;
+  --vp-c-brand-2: #d287eb;
+  --vp-c-brand-3: #dda5f0;
+
+  --vp-c-blue-1: #0ea5e9;
+  --vp-c-blue-2: #0b87c1;
+  --vp-c-blue-3: #096c9a;
+
+  --vp-c-brand-soft: rgba(123, 26, 188, 0.14);
+
+  --vp-c-blue-soft: rgba(14, 164, 233, 0.14);
+
+  --vp-custom-block-info-border: var(--vp-c-blue-soft);
+  --vp-custom-block-info-bg: var(--vp-c-blue-soft);
+  --vp-custom-block-info-text: var(--vp-c-neutral);
+
+  --vp-custom-block-tip-border: var(--vp-c-green-soft);
+  --vp-custom-block-tip-bg: var(--vp-c-green-soft);
+  --vp-custom-block-tip-text: var(--vp-c-neutral);
+
+  --vp-custom-block-warning-border: var(--vp-c-yellow-soft);
+  --vp-custom-block-warning-bg: var(--vp-c-yellow-soft);
+  --vp-custom-block-warning-text: var(--vp-c-neutral);
+
+  --vp-custom-block-danger-border: var(--vp-c-danger-soft);
+  --vp-custom-block-danger-bg: var(--vp-c-danger-soft);
+  --vp-custom-block-danger-text: var(--vp-c-neutral);
+
+  --vp-custom-block-important-border: var(--vp-c-important-soft);
+  --vp-custom-block-important-bg: var(--vp-c-important-soft);
+  --vp-custom-block-important-text: var(--vp-c-neutral);
+
+  --vp-custom-block-details-border: transparent;
+  --vp-custom-block-details-bg: var(--vp-c-default-soft);
+}
+
+[lang|="ru"] {
+  --vp-code-copy-copied-text-content: 'Скопировано';
+}
+
+.Layout {
+  margin-right: var(--scrollbar-width);
+}
+
+.VPDocAsideOutline {
+  border: var(--vp-border);
+  border-radius: var(--vp-border-radius);
+  padding: 20px 20px 20px 0;
+}
+
+.VPDocAsideOutline .content {
+  padding-left: 20px;
+  border-left: none;
+}
+
+.VPDocAsideOutline .outline-marker {
+  width: 4px;
+  left: -4px;
+}
+
+.VPDoc .content-container {
+  max-width: unset !important;
+}
+
+.pager .pager-link {
+  border: 1px solid var(--vp-c-gray-soft);
+  box-shadow: var(--vp-shadow-1);
+}
+
+.pager .pager-link .title {
+  color: var(--vp-c-text-1);
+}
+
+.curtain {
+  display: none;
+}
+
+kbd {
+  border: 1px solid var(--vp-c-border);
+  box-shadow: var(--vp-c-gray-soft) 0px 1px 1px 0px, var(--vp-c-neutral-inverse) 0px 1px 0px 0px inset;
+  background-color: var(--vp-c-gray-soft);
+  border-radius: 3px;
+  display: inline-block;
+  margin: 0 .1em;
+  overflow-wrap: break-word;
+  padding: .1em .6em;
+  text-shadow: 0 1px 0 var(--vp-c-white);
+}
+
+.vp-doc p {
+  line-height: 26px;
+}
+
+.vp-doc li + li {
+  margin-top: .25em;
+}
+
+.vp-doc table {
+  line-height: 1.5;
+}
+
+.vp-doc ol {
+  counter-reset: li;
+  list-style: none;
+  position: relative;
+}
+
+.vp-doc ol > li {
+  padding-left: 1.25rem;
+}
+
+.vp-doc ol > li::before {
+  width: calc(1.5rem - 2px);
+  height: calc(1.5rem - 2px);
+  font-size: calc(1rem - 2px);
+  margin: 1px 0 0 .5rem;
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: 0;
+  color: var(--vp-c-text-1);
+  font-weight: 500;
+  text-align: center;
+  border-radius: 50%;
+  background-color: var(--vp-sidebar-bg-color);
+}
+
+.custom-block {
+  border-radius: var(--vp-border-radius);
+  border-width: var(--vp-border-width);
+}
+
+.custom-block.info a,
+.custom-block.info code {
+  color: var(--vp-c-blue-1);
+}
+
+.custom-block.details a,
+.custom-block.details code {
+  color: #b8b8b8;
+}
+
+.custom-block.info a:hover {
+  color: var(--vp-c-blue-2);
+}
+
+@media (max-width: 1023px) {
+  .vp-doc table {
+    border: 0;
+  }
+
+  .vp-doc table tbody {
+    display: block;
+  }
+
+  .vp-doc table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  .vp-doc table tr {
+    border-bottom: 1px solid var(--vp-c-divider);
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .vp-doc table tr:nth-child(2n) {
+    background-color: inherit;
+  }
+
+  .vp-doc table td {
+    border-top: none;
+    display: block;
+    overflow-x: auto;
+  }
+
+  .vp-doc table td::before {
+    display: block;
+    content: attr(data-label) ':';
+    color: var(--vp-c-text-2);
+  }
+
+  .vp-doc table td:empty {
+    display: none;
+  }
+
+  .vp-doc table td:last-child {
+    border-bottom: 0;
+  }
 }
