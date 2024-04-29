@@ -153,6 +153,17 @@ kbd {
   color: var(--vp-c-blue-1);
 }
 
+.custom-block.info a,
+.custom-block.info code {
+  color: var(--vp-c-blue-1);
+}
+
+
+.custom-block.tip a,
+.custom-block.tip code {
+  color: var(--vp-c-green-1);
+}
+
 .custom-block.details a,
 .custom-block.details code {
   color: #b8b8b8;
