@@ -169,6 +169,10 @@ kbd {
   color: var(--vp-c-blue-2);
 }
 
+.VPTeamMembers.small .container .VPTeamMembersItem {
+  border: 5px solid #323232;
+}
+
 @media (max-width: 1023px) {
   .vp-doc table {
     border: 0;
