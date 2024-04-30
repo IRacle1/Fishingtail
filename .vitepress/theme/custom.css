@@ -170,6 +170,10 @@ kbd {
 }
 
 .VPTeamMembers.small .container .VPTeamMembersItem {
+  border: 5px solid #e6e6e6;
+}
+
+.dark .VPTeamMembers.small .container .VPTeamMembersItem {
   border: 5px solid #323232;
 }
 
