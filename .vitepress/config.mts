@@ -50,18 +50,15 @@ export default defineConfig({
             // [in;out  = !=]
             { text: "Уточнение позиций пальцев", link: "/notation/basic/specialPos" },
 
-            // Hand orientation; Prefix; Name; Suffix; num of spins; Slots
+            // Hand orientation; Prefix; Name; Suffix; num of spins; Slots []
             // промежуточные слоты too
-            { text: "Нотация одного элемента", link: "/notation/basic/modifiers" },
+            { text: "Трюк", link: "/notation/basic/modifiers" },
 
             { text: "Модификаторы - префиксы", link: "/notation/basic/prefixes" },
             { text: "Модификаторы - суффиксы", link: "/notation/basic/suffixes" },
 
             // > ~> >~ ~ pass 12-23>34>23>12
             { text: "Соеденение трюков, гибриды", link: "/notation/basic/connecting" },
-
-            // not O type💀
-            { text: "Фингеркроссы", link: "/notation/basic/fc" },
           ],
         },
         {
@@ -70,6 +67,9 @@ export default defineConfig({
             // 1b2bsp
             { text: "Нотация фаланг и сторон пальцев", link: "/notation/advanced/phalanx" },
             
+            // not O type💀
+            { text: "Фингеркроссы", link: "/notation/advanced/fc" },
+
             // .
             { text: "Dot нотация", link: "/notation/advanced/dotNotation" },
 
@@ -78,7 +78,7 @@ export default defineConfig({
 
             { text: "PushSpinCatch", link: "/notation/advanced/pscNotation" },
 
-            { text: "Wiper in/out", link: "/docs/notation/advanced/wiperInOut" },
+            { text: "Wiper in/out", link: "/notation/advanced/wiperInOut" },
           ],
         },
       ]
