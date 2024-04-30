@@ -173,7 +173,7 @@ PU-PD thumb fishing ~ PD-PU thumb fishing rev = PU ta ~ PD ta rev ~ PU ta
   HX-HY trick ~ HY-HX trick rev
   ```
 
-  Где `HX` и `HY` - противоположные ориентации руки(`PD,PU; PS,BS`), а `trick (rev)` - непосредственно сам `thumb fishing` или его реверс.
+  Где `HX` и `HY` - противоположные ориентации руки(`PD,PU`), а `trick (rev)` - непосредственно сам `thumb fishing` или его реверс.
 :::
 
 Да, это именно то что мы и искали. Такие пары можно составить для всех 8 элементов:
@@ -384,7 +384,7 @@ index fishing [pair linkage] = index bust ~ ia rev ~ index bust
 
 В первой теории на разделение фишингов/фиштейлов влияет только ориентация руки.
 
-Во второй **любая** парная линка из друх *противоположных* фишингов будет считатся фиштейлом, не только `PS`/`BS` версии.
+Во второй **любая** парная линка из друх *противоположных* фишингов будет считатся фиштейлом, не только неявные `PS` версии.
 
 <figure :class="$style.normaling">
   <video controls="controls" src="./ThumbFF.mp4" onloadstart="this.volume=0.5"/>
