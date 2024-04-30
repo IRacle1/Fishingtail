@@ -78,7 +78,7 @@ export default defineConfig({
 
             { text: "PushSpinCatch", link: "/notation/advanced/pscNotation" },
 
-            { text: "Wiper in/out", link: "/docs/notation/advanced/wiper_in_out" },
+            { text: "Wiper in/out", link: "/docs/notation/advanced/wiperInOut" },
           ],
         },
       ]
