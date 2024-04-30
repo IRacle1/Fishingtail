@@ -201,7 +201,19 @@ PU-PD thumb fishing ~ PD-PU thumb fishing rev = PU ta ~ PD ta rev ~ PU ta
 
 Конт... Как же будет выглядить конт такой парной линки?
 
-<!--TODO: Конт тамб фиштейла и тамб фишинга контактный у арта-->
+<figure :class="$style.normaling">
+  <video controls="controls" src="./TFishtailRev.mp4" onloadstart="this.volume=0.5"/>
+  <figcaption>
+    [ PS-BS thumb fishing rev ~ BS-PS thumb fishing ] cont by art
+  </figcaption>
+</figure>
+
+<figure :class="$style.normaling">
+  <video controls="controls" src="./ThumbFF.mp4" onloadstart="this.volume=0.5"/>
+  <figcaption>
+    [ PU-PD thumb fishing ~ PD-PU thumb fishing rev ] cont by art
+  </figcaption>
+</figure>
 
 Ничего не напоминает? Да и не суть, можно двигаться дальше. Теперь можно подумать как обобщить концепцию фишинга на другие слоты/пальцы.
 
@@ -221,7 +233,12 @@ PU-PD index fishing = PU ia 0.5 ~ PD fl ia rev 0.5
 PD index fishing = index bust 0.5 ~ fl ia rev 0.5
 ```
 
-<!--TODO: Сингл инд фишинга-->
+<figure :class="$style.normaling">
+  <video controls="controls" src="./IndexFishing.mp4" onloadstart="this.volume=0.5"/>
+  <figcaption>
+    index fishing by art
+  </figcaption>
+</figure>
 
 Вопросов еще больше, разве мы не определили концепцию фишинга посредством араунд на араунд рев с хендмувом? Тут не то что направление у трюков одинаковое, но даже изменения ориентации руки нет. Каким хуем это фишинг?
 
@@ -374,9 +391,12 @@ index fishing [pair linkage] = index bust ~ ia rev ~ index bust
 
 Во второй **любая** парная линка из друх *противоположных* фишингов будет считатся фиштейлом, не только `PS`/`BS` версии.
 
-Вот пример парной линки из фишингов, которая по первой теории не будет считаться фиштейлом.
-
-<!-- TODO: pd-pu-pd ta fishing by art-->
+<figure :class="$style.normaling">
+  <video controls="controls" src="./ThumbFF.mp4" onloadstart="this.volume=0.5"/>
+  <figcaption>
+    Вот пример парной линки из фишингов, которая по первой теории не будет считаться фиштейлом.
+  </figcaption>
+</figure>
 
 Что бы лучше понять в чем каждая теория хуже/лучше, можно проанализировать дочерние от концепции фишинга трюки.
 
@@ -455,7 +475,12 @@ bust fishing = (fl) bust 0.5 x-* > fs 1.0 *-y > fl around rev 0.5 y-*
 
 Вот это неожиданно, трюк который был показан еще в 13 году оказывается тоже содержит элементы фишинга/фиштейла. 
 
-<!--TODO: index lever cont by art-->
+<figure :class="$style.normaling">
+  <video controls="controls" src="./lever.mp4" onloadstart="this.volume=0.5"/>
+  <figcaption>
+    index lever cont
+  </figcaption>
+</figure>
 
 Примерный брейк левера выглядит как:
 ```js
@@ -468,7 +493,12 @@ index lever = PU/PS bak ~ ma 0.5
 
 `Backhand fishtail` АКА `fishtail B*` является скорее не отдельным трюком, а игра с концепцией фиштейла на другие слоты.
 
-<!--TODO: backhand fishtail cont by art-->
+<figure :class="$style.normaling">
+  <video controls="controls" src="./BackhandFishtail.mp4" onloadstart="this.volume=0.5"/>
+  <figcaption>
+    backhand fishtail rev by art
+  </figcaption>
+</figure>
 
 Этот трюк, как и его название является контрпримером 1 теории. *Являясь фиштейлом выполняется в `PD`*
 
