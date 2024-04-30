@@ -1,4 +1,6 @@
 :root {
+  --vp-code-copy-copied-text-content: 'Скопировано';
+  
   --vp-shadow-6: 0px 4px 15px rgba(47, 63, 147, 0.08);
   --vp-border: var(--vp-border-width) solid var(--vp-c-bg-soft);
   --vp-border-width: 4px;
@@ -50,10 +52,6 @@
 .dark {
   --vp-home-hero-name-background: -webkit-linear-gradient(10deg, #952ac6, var(--vp-c-text-1));
   --vp-home-hero-image-background-image: linear-gradient(326deg, #f8002f 0%, #000c14 74%);
-}
-
-[lang|="ru"] {
-  --vp-code-copy-copied-text-content: 'Скопировано';
 }
 
 .Layout {
