@@ -89,10 +89,14 @@ export default defineConfig({
         icon: "github",
         link: "https://github.com/IRacle1",
       },
-      { icon: "discord", link: "https://discord.com/users/532151807019843594" },
+      { 
+        icon: "discord", 
+        link: "https://discord.com/users/532151807019843594" 
+      },
     ],
     footer: {
       message: 'Долистал так низко? Харош. Может лучше долистаешь до момента когда твоя жизнь пошла по накатаной?',
+      copyright: 'SIGMA @ 2024',
     },
     outline: { label: 'Содержание' },
 

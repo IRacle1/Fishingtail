@@ -43,12 +43,12 @@
 }
 
 :root {
-  --vp-home-hero-name-background: -webkit-linear-gradient(10deg, #952ac6, #000000);
+  --vp-home-hero-name-background: -webkit-linear-gradient(10deg, #952ac6, var(--vp-c-text-1));
   --vp-home-hero-image-background-image: linear-gradient(326deg, #f8002f 0%, #ffffff 74%);
 }
 
 .dark {
-  --vp-home-hero-name-background: -webkit-linear-gradient(10deg, #952ac6, #FFFFFF);
+  --vp-home-hero-name-background: -webkit-linear-gradient(10deg, #952ac6, var(--vp-c-text-1));
   --vp-home-hero-image-background-image: linear-gradient(326deg, #f8002f 0%, #000c14 74%);
 }
 
