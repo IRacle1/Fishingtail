@@ -41,7 +41,6 @@ export default defineConfig({
         {
           text: "Базовый уровень",
           items: [
-            { text: "Терминология", link: "/notation/basic/terminology" },
             // базово про слоты(без сторон и фаланг), ориентацию руки
             // Basic slot letters usage
             { text: "Основы записи слота", link: "/notation/basic/basicSlot" },
