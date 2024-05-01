@@ -1,6 +1,6 @@
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme';
-import load from "../../../giveCredits.js";
+import { load } from "/help.js";
 
 const credit = load({ "iracle": "Автор статьи", "art": "Редакция и предоставление материала" });
 

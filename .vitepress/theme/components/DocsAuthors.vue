@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useData } from 'vitepress'
 import { VPTeamMembers } from 'vitepress/theme-without-fonts'
-import authors from '../../../authors.json'
+import authors from '/authors.json'
 
 const { lang, theme } = useData()
 const validAuthors = 
