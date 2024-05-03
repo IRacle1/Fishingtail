@@ -479,7 +479,7 @@ bust fishing = (fl) bust 0.5 x-* > fs 1.0 *-y > fl around rev 0.5 y-*
 
 Примерный брейк левера выглядит как:
 ```js
-index lever = PU/PS bak ~ ma 0.5
+index lever = PU/PS index bak ~ ma 0.5
 ```
 
 Где момент транзишна/гибрида на мид араунд являяется не чем иным как половинкой фиштейла! Т.е. фишингом.
