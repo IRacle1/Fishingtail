@@ -43,14 +43,20 @@ export default defineConfig({
           items: [
             // базово про слоты(без сторон и фаланг), ориентацию руки
             // Basic slot letters usage
-            { text: "Основы записи слота", link: "/notation/basic/basicSlot" },
+            { text: "Основы записи слота. Локаторы", link: "/notation/basic/basicSlot" },
+
+            // * - air
+            { text: "Анстейбл слоты", link: "/notation/basic/unstableSlot" },
+            
+            // 1b2bsp
+            { text: "Нотация фаланг и сторон пальцев", link: "/notation/basic/phalanx" },
             
             // [in;out  = !=]
             { text: "Уточнение позиций пальцев", link: "/notation/basic/specialPos" },
 
             // Hand orientation; Prefix; Name; Suffix; num of spins; Slots []
             // промежуточные слоты too
-            { text: "Трюк", link: "/notation/basic/modifiers" },
+            { text: "Трюк", link: "/notation/basic/trick" },
 
             { text: "Модификаторы - префиксы", link: "/notation/basic/prefixes" },
             { text: "Модификаторы - суффиксы", link: "/notation/basic/suffixes" },
@@ -62,11 +68,6 @@ export default defineConfig({
         {
           text: "Продвинутый уровень",
           items: [
-            // * - air
-            { text: "Анстейбл слоты", link: "/notation/basic/unstableSlot" },
-            
-            // 1b2bsp
-            { text: "Нотация фаланг и сторон пальцев", link: "/notation/advanced/phalanx" },
             
             // not O type💀
             { text: "Фингеркроссы", link: "/notation/advanced/fc" },
