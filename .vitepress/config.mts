@@ -41,6 +41,8 @@ export default defineConfig({
         {
           text: "Базовый уровень",
           items: [
+            { text: "Вступление", link: "/notation/basic/intro" },
+
             // базово про слоты(без сторон и фаланг), ориентацию руки
             // Basic slot letters usage
             { text: "Основы записи слота. Локаторы", link: "/notation/basic/basicSlot" },
