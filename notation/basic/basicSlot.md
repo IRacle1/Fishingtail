@@ -62,7 +62,7 @@ Cобственно сами обозначения:
 | <ColorText text="H" color="#e4e268"/> | Hand | Вся кисть руки |
 | <ColorText text="W" color="#e4e268"/> | Wrist | Запястье |
 | <ColorText text="E" color="#e46868"/> | Elbow | Локоть |
-| <ColorText text="A" color="#e46868"/> | Arm | Предплечье |
+| <ColorText text="A" color="#e46868"/> | Arm | Вся рука |
 
 <!--TODO: Все штуки связанные со слотами, TF, P1 условно-->
 
