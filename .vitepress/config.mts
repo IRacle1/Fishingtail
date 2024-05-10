@@ -45,13 +45,13 @@ export default defineConfig({
 
             // базово про слоты(без сторон и фаланг), ориентацию руки
             // Basic slot letters usage
-            { text: "Основы записи слота. Локаторы", link: "/notation/basic/basicSlot" },
-
-            // * - air
-            { text: "Анстейбл слоты", link: "/notation/basic/unstableSlot" },
+            { text: "Основы записи слота", link: "/notation/basic/basicSlot" },
             
             // 1b2bsp
             { text: "Нотация фаланг и сторон пальцев", link: "/notation/basic/phalanx" },
+            
+            // * - air
+            { text: "Анстейбл слоты", link: "/notation/basic/unstableSlot" },
             
             // [in;out  = !=]
             { text: "Уточнение позиций пальцев", link: "/notation/basic/specialPos" },
