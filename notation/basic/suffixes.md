@@ -23,8 +23,8 @@ import ColorText from '/.vitepress/theme/components/ColorText.vue';
 | <ColorText text="reverse" color="#88e19d"/> | <ColorText text="fall" color="#88e19d"/> |
 | <ColorText text="harmonic" color="#e4e268"/> |<ColorText text="bust *" color="#88e19d"/> |
 | <ColorText text="riser" color="#e4e268"/> | <ColorText text="cardioid" color="#e4e268"/> |
-| <ColorText text="release" color="#88e19d"/> | <ColorText text="pop" color="#e4e268"/> |
-| <ColorText text="still *" color="#e46868"/> | |
+| <ColorText text="release" color="#88e19d"/> | <ColorText text="still *" color="#e46868"/> |
+| <ColorText text="pop" color="#e4e268"/> | |
 
 ## `normal`/`rev`
 
@@ -32,4 +32,26 @@ import ColorText from '/.vitepress/theme/components/ColorText.vue';
 
 ## `harmonic`
 
-Смысл просто в краткой записи линки `[ trick > trick rev ]`, тоесть `trick harmonic = [ trick > trick rev ]`, можно сказать что это каунтер на минималках.
+Смысл просто в краткой записи линки `[ trick > trick rev ]`, тоесть `trick harmonic = [ trick > trick rev ]`, можно сказать что это каунтер на минималках. Опять легаси штука которую можно записать просто линкой, и будет понятнее.
+
+*В теории может применяться к почти всем элементам, но используют в нейминге зачастую `ta harmonic`*
+
+## `riser`
+
+Один из многих модификаторов указывающих на подбрасывание мода во время выполнения. Конкретно этот обозначает подброс мода, и последующая ловля в слот в точности как в исходном трюке. Пример: [*bak riser*](https://www.youtube.com/watch?v=wUC_P7rKbCQ)
+
+## `release`
+
+Тоже указывает на подбрасывание мода, но тут конкретный аспект только на подбрасывание, без последующей ловли. *один только `ta release` является основой олд павера*
+
+## `pop`
+
+Невероятно, но эта штука тоже указывает на обороты в процессе выполнения, правда выполненым толчком одного/нескольких пальцев во время спина. конкретные примеры: `pinky bak pop spin`, `mirr pp > pinky pop`.
+
+::: info release/aerial/riser
+Путаница в основном возникает между двумя модификаторами `aerial`/`release`, особенно в случае `aerial ta` и `ta release`, так что снизу их прикреплю.
+
+*Как вы уже и  понять нейминги в нотациях не всегда точные, как и граница по всех этих аериал/релиз/раймоглисер, я дал кое-какие определения, но по факту точной разницы между ними нет*
+:::
+
+## `rise`/`fall`
