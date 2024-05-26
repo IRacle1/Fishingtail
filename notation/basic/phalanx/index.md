@@ -17,7 +17,7 @@
 *На этот раз локаторы фаланг не имеют в себе сокращение названия, а просто являются буквами от `w` до `z`. Исключение: `t`, обозначает слово `tip`(кончик)*
 
 <figure :class="$style.normaling">
-  <img src="./UsedData/phalanx/Phalanx1.jpg" />
+  <img src="./Phalanx1.jpg" />
   <figcaption>
     Расположение этих локаторов фаланг
   </figcaption>
@@ -37,7 +37,7 @@
 | yz | Дальний сустав |
 
 <figure :class="$style.normaling">
-  <img src="./UsedData/phalanx/Phalanx2.jpg" />
+  <img src="./Phalanx2.jpg" />
   <figcaption>
     Расположение суставов
   </figcaption>
@@ -71,21 +71,21 @@
 
 <div>
   <figure :class="$style.blocking">
-    <img src="./UsedData/phalanx/PhalanxPalm.jpg" />
+    <img src="./PhalanxPalm.jpg" />
     <figcaption>
       Внутренняя сторона '1p'
     </figcaption>
   </figure>
 
   <figure :class="$style.blocking">
-    <img src="./UsedData/phalanx/PhalanxBack.jpg" />
+    <img src="./PhalanxBack.jpg" />
     <figcaption>
       Задняя сторона сторона '1b'
     </figcaption>
   </figure>
 
   <figure :class="$style.blocking">
-    <img src="./UsedData/phalanx/PhalanxS.jpg" />
+    <img src="./PhalanxS.jpg" />
     <figcaption>
       Боковые стороны '1s' ('1st'/'1sp')
     </figcaption>
@@ -115,4 +115,4 @@
 
 <!--TODO: 1ysp2yst example-->
 
-<!--@include: ../../inlineStyle.md-->
+<!--@include: ../../../inlineStyle.md-->

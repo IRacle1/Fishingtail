@@ -41,30 +41,30 @@ export default defineConfig({
         {
           text: "Базовый уровень",
           items: [
-            { text: "Вступление", link: "/notation/basic/intro" },
+            { text: "Вступление", link: "/notation/basic/intro/index" },
 
             // базово про слоты(без сторон и фаланг), ориентацию руки
             // Basic slot letters usage
-            { text: "Основы записи слота", link: "/notation/basic/basicSlot" },
+            { text: "Основы записи слота", link: "/notation/basic/basicSlot/index" },
             
             // 1b2bsp
-            { text: "Нотация фаланг и сторон пальцев", link: "/notation/basic/phalanx" },
+            { text: "Нотация фаланг и сторон пальцев", link: "/notation/basic/phalanx/index" },
             
             // * - air
-            { text: "Анстейбл слоты", link: "/notation/basic/unstableSlot" },
+            { text: "Анстейбл слоты", link: "/notation/basic/unstableSlot/index" },
             
             // [in;out  = !=]
-            { text: "Уточнение позиций пальцев", link: "/notation/basic/specialPos" },
+            { text: "Уточнение позиций пальцев", link: "/notation/basic/specialPos/index" },
 
             // Hand orientation; Prefix; Name; Suffix; num of spins; Slots []
             // промежуточные слоты too
-            { text: "Трюк", link: "/notation/basic/trick" },
+            { text: "Трюк", link: "/notation/basic/trick/index" },
 
-            { text: "Модификаторы - префиксы", link: "/notation/basic/prefixes" },
-            { text: "Модификаторы - суффиксы", link: "/notation/basic/suffixes" },
+            { text: "Модификаторы - префиксы", link: "/notation/basic/prefixes/index" },
+            { text: "Модификаторы - суффиксы", link: "/notation/basic/suffixes/index" },
 
             // > ~> >~ ~ pass 12-23>34>23>12
-            { text: "Соеденение трюков, гибриды", link: "/notation/basic/connecting" },
+            { text: "Соеденение трюков, гибриды", link: "/notation/basic/connecting/index" },
           ],
         },
         {

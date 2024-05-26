@@ -1,6 +1,4 @@
 <script setup>
-import { VPTeamMembers } from 'vitepress/theme';
-import { load, textColor } from "/help.js";
 import ColorText from '/.vitepress/theme/components/ColorText.vue';
 
 </script>
@@ -16,9 +14,6 @@ import ColorText from '/.vitepress/theme/components/ColorText.vue';
 Да и сейчас есть такие модификаторы которые использовать не рекомендуется, я их помечу звездочкой (`*`);
 :::
 
-<!--#88e19d - green-->
-<!--#e4e268 - yellow-->
-<!--#e46868 - red-->
 | Обозначение | Обозначение|
 | - | - |
 | <ColorText text="inverse" color="#88e19d"/> | <ColorText text="continuous" color="#88e19d"/> |
@@ -43,21 +38,21 @@ import ColorText from '/.vitepress/theme/components/ColorText.vue';
 
 <div>
   <figure :class="$style.normaling">
-    <img src="./UsedData/prefix/mirr.jpg" />
+    <img src="./mirr.jpg" />
     <figcaption>
       Плоскость mirrored - перпендикулярная ладони, но парралельна пальцам.
     </figcaption>
   </figure>
 
   <figure :class="$style.normaling">
-    <img src="./UsedData/prefix/inv.jpg" />
+    <img src="./inv.jpg" />
     <figcaption>
       Плоскость inverse - полностью соответствующая/парралельная ладони.
     </figcaption>
   </figure>
 
   <figure :class="$style.normaling">
-    <img src="./UsedData/prefix/anti.jpg" />
+    <img src="./anti.jpg" />
     <figcaption>
       Плоскость antipodal - перпендикулярная ладони, перпендикулярная пальцам.
     </figcaption>
@@ -209,3 +204,5 @@ Cейчас на это забили, и называют паверпассы �
 
 По уже название *инверс паверпасс* настолько устоялось, что менять что либо бессмысленно. Относитесь к *инверс* в паверпассах как к части названия.
 :::
+
+<!--@include: ../../../inlineStyle.md-->
