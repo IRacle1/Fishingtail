@@ -16,9 +16,6 @@ import ColorText from '/.vitepress/theme/components/ColorText.vue';
 
 Всего их 12:
 
-<!--#88e19d - green-->
-<!--#e4e268 - yellow-->
-<!--#e46868 - red-->
 | Обозначение | Обозначение|
 | - | - |
 | <ColorText text="normal" color="#88e19d"/> | <ColorText text="rise" color="#88e19d"/> |

@@ -1,9 +1,5 @@
 <script setup>
-import { VPTeamMembers } from 'vitepress/theme';
-import { load, textColor } from "/help.js";
 import ColorText from '/.vitepress/theme/components/ColorText.vue';
-
-const credit = load({ "iracle": "Автор статьи", "art": "Редакция и предоставление материала" });
 
 </script>
 # Основы записи слота
