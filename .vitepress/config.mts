@@ -72,17 +72,17 @@ export default defineConfig({
           items: [
             
             // not O type💀
-            { text: "Фингеркроссы", link: "/notation/advanced/fc" },
+            { text: "Фингеркроссы", link: "/notation/advanced/fc/index" },
 
             // .
-            { text: "Dot нотация", link: "/notation/advanced/dotNotation" },
+            { text: "Dot нотация", link: "/notation/advanced/dotNotation/index" },
 
             // nerd stupd
-            { text: "Алгебра модификаторов", link: "/notation/advanced/algebra" },
+            { text: "Алгебра модификаторов", link: "/notation/advanced/algebra/index" },
 
-            { text: "PushSpinCatch", link: "/notation/advanced/pscNotation" },
+            { text: "PushSpinCatch", link: "/notation/advanced/pscNotation/index" },
 
-            { text: "Wiper in/out", link: "/notation/advanced/wiperInOut" },
+            { text: "Wiper in/out", link: "/notation/advanced/wiperInOut/index" },
           ],
         },
       ]
